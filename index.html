@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
 </head>
+
 <body>
     <header>
         <div>
-            <button class= "HighBtn" id= "View High Scores"></button> //Button to view stored high scores
+            <button class="HighBtn" id="View High Scores"></button>
         </div>
         <div>
-            <p>Timer: <span id ="timeRemaining">0</span></p> //Live timer on each page 
+            <p>Timer: <span id="timeRemaining">0</span></p>
         </div>
     </header>
-    
+    <div id=" mainContainer">
+        <div id="listContainer">
+            <p id="questionDisplay"> Welcome to the Code Quiz!</p>
+            <p id="finalscoreDisplay"></p>
+            <p id="enterName"></p>
+            <textarea id=enterNameTextArea></textarea>
+            <button class="btn" id="start quiz">Start Quiz</button>
+            <button class="btn" id=" answer1"></button>
+            <button class="btn" id=" answer2"></button>
+            <button class="btn" id=" answer3"></button>
+            <button class="btn" id=" answer4"></button>
+            <button class="btn" id="submitScore"></button>
+        </div>
+        <div id="answerCorrectWronglist"></div>
+        <p id="answerCorrectWrong"></p>
+    </div>
+    <script src="./Assets/js/script.js"></script>
 </body>
+
 </html>
