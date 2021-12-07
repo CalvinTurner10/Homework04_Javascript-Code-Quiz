@@ -1,40 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <title>Code Quiz</title>
+    <title>The Code Quiz</title>
 </head>
-
 <body>
     <header>
-        <div>
-            <button class="HighBtn" id="View High Scores"></button>
+        <div class = scores>
+            <a id= "view-highscores"> View high scores</a>
         </div>
-        <div>
-            <p>Timer: <span id="timeRemaining">0</span></p>
-        </div>
+        <div id="timer" class="timer"> Time: 75</div>
     </header>
-    <div id=" mainContainer">
-        <div id="listContainer">
-            <p id="questionDisplay"> Welcome to the Code Quiz!</p>
-            <p id="finalscoreDisplay"></p>
-            <p id="enterName"></p>
-            <textarea id=enterNameTextArea></textarea>
-            <button class="btn" id="start quiz">Start Quiz</button>
-            <button class="btn" id=" answer1"></button>
-            <button class="btn" id=" answer2"></button>
-            <button class="btn" id=" answer3"></button>
-            <button class="btn" id=" answer4"></button>
-            <button class="btn" id="submitScore"></button>
+    <section id= start-container class ="start-quiz">
+        <h1>Welcome to Javascript Quiz Challege</h1>
+        <p>Try to answer the following questions within the time limit. Keep in mind that incorrect answer will penalize your score/time by ten seconds.</p>
+        <div class =" buttons">
+            <button button id="start-btn" class="start-btn"> Start Quiz</button>
         </div>
-        <div id="answerCorrectWronglist"></div>
-        <p id="answerCorrectWrong"></p>
-    </div>
-    <script src="./Assets/js/script.js"></script>
+    </section>
+    
 </body>
-
 </html>
