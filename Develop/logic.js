@@ -47,3 +47,5 @@
 
 
 // user clicks button to start quiz
+var timerEl = document.querySelector(".timer");
+var startEl = documen
