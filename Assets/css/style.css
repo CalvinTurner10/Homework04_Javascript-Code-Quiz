@@ -1,45 +1,48 @@
-.right {
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.timer{
+    display: flex;
+    justify-content: right;
     float: right;
 }
-.left{
-    float: left;
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+
+}
+p {
+    text-align: center;
 }
 
-#scores{
-    display: block;
-    background-color: white;
-    display: inline-block;
-    width: 98vw;
-    border: 3px solid purple;
-    border-radius: 5px;
-    margin: 6px;
-}
-body{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: white;
-}
-.start-quiz{
-    text-align: center;
-    padding: 12vh;
-}
-h4{
-    padding: 10px 8px 10px 8px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
 button{
-    border: none;
+    display: flex;
     background-color: purple;
     color: white;
-    border-radius: 5px;
-    padding: 10px 16px 10px 16px;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 4px;
-
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
 }
-button:hover{
-    transition-duration: 0.4s;
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-btn {
     background-color: purple;
+    color: white;
+    border-radius: 8px;
+}
+
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight {
+    display: none;
 }

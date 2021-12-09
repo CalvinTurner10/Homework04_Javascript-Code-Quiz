@@ -59,7 +59,7 @@ function countdown(){
     timeLeft--;
     timerEl.textContent = "Time: " +timeLeft;
     
-    if (timerLeft ===0) {
+    if (timeLeft === 0) {
       clearInterval(timeInerval);
       sendMessage();
     }
