@@ -47,6 +47,10 @@
 
 
 // user clicks button to start quiz
+var points = function(){
+  totalPoints = totalPoints + 10;
+  
+}
 
 //timer function
 var timerEl = document.querySelector(".timer");

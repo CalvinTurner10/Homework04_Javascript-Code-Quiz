@@ -1,3 +1,4 @@
+// function for the first page
 function show(one) {
     const firstPage = document.getElementById(one);
     if (!one) {
@@ -10,7 +11,7 @@ for (let i = 0; i < pages.length; i++) {
     pages[i].style.display = "none";
 }
 one.style.display = "block";
-
+// function transistions to the next page
 document.getElementById("start-btn").addEventListener("click", function show() {
     const pages2 = document.getElementsByClassName("pages");
     for (let i = 0; i < pages.length; i++) {
@@ -18,7 +19,7 @@ document.getElementById("start-btn").addEventListener("click", function show() {
         two.style.display = "block"
     }
 });
-
+// question variables 
 var questions1 = document.getElementsByClassName("questions-1");
 addQuestionsListener(questions1, three);
 
@@ -46,6 +47,7 @@ function addQuestionsListener(questions2, pageElement) {
         });
     }
 }
+// transistions to score page when the user clicks the bttn
 document.getElementById("form").onsubmit = function () { submitForm() }
 
 function submitForm() {
