@@ -5,77 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="#">View Highscores</a>
-        <div class = "timer">Time: 75</div>
-    </nav>
-    <div class="page" id ="one">
-        <h1>Coding Quiz Challenge</h1>
-        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answer will penalize your score/time by ten seconds!</p>
-        <div id = "button">
-            <button id = "start-btn">Start Quiz</button>
-        </div>
-    </div>
-    <div class ="page" id="two">
-        <h2>Commonly used data types DO NOT include:</h2>
-        <button class = "questions-1 incorrect"> Strings</button>
-        <button class = "questions-1 incorrect"> Booleans</button>
-        <button class = "questions-1 correct"> Alerts</button>
-        <button class = "questions-1 incorrect"> Numbers</button>
-    </div>
-    <div class ="page" id="three">
-        <h2>The condition in an if / else statement is enclosed within ____. </h2>
-        <button class = "questions-2 incorrect"> Quotes</button>
-        <button class = "questions-2 incorrect"> Curly Brackets</button>
-        <button class = "questions-2 correct"> Parentheses</button>
-        <button class = "questions-2 incorrect"> Square Brackets</button>
-    </div>
-    <div class ="page" id="four">
-        <h2>Arrays in JavaScript can be used to store ____.</h2>
-        <button class = "questions-3 incorrect"> Numbers and Strings</button>
-        <button class = "questions-3 incorrect"> Other Arrays</button>
-        <button class = "questions-3 correct"> Booleans</button>
-        <button class = "questions-3 incorrect"> All of the above</button>
-    </div>
-    <div class ="page" id="five">
-        <h2>String values must be enclosed within ____ when being assigned to variables. </h2>
-        <button class = "questions-4 incorrect"> Commas</button>
-        <button class = "questions-4 incorrect"> Curly Brackets</button>
-        <button class = "questions-4 correct"> Quotes</button>
-        <button class = "questions-4 incorrect"> Parentheses</button>
-    </div>
-    <div class ="page" id="six">
-        <h2> A very useful tool used during development and debugging for printing content to the debugger is: </h2>
-        <button class = "questions-5 incorrect"> JavaScript</button>
-        <button class = "questions-5 incorrect"> Terminal/ Bash</button>
-        <button class = "questions-5 correct"> for loops</button>
-        <button class = "questions-5 incorrect"> console.log</button>
-    </div>
-    <div class ="page" id ="seven">
-    <h2>All done!</h2>
-    <form id="form">
-        <label for="initials">Initials</label>
-        <input type="text">
-        <input type="submit">
-    
+    <header>
+        <h1 id = "main">
+            Code Quiz
 
-    </form>
-    </div>
-    <div class ="page" id ="eight">
-        <h2>Highscores</h2>
-        <table>
-            <tr>
-                <td></td>
-            </tr>
-        </table>
-        <button id="go-back">Go back</button>
-        <button id= "clear">Clear</button>
-        <script src ="Develop/logic.js"></script>
-        <script src="./Assets/js/score.js"></script>
-        <script src ="Assets/js/question.js"></script>
-    </div>
+        </h1>
+        <h2 id= "h2" >
+            <div id= "counter">
+
+            </div>
+        </h2>
+
+        <div id= "done">
+
+        </div>
+
+    </header>
+    <section>
+        <h2 id= "instruction">
+            Press start and answer the questions!
+        </h2>
+        <div class= "question">
+            <br>
+        </div>
+
+        <ul class ="answer">
+
+        </ul>
+       
+        <div id="result">
+
+        </div>
+
+        <button id="start">
+            Start
+        </button>
+        <button id="score">
+            Scores
+        </button>
+    </section>
+    <script src="./logic.js"></script>
+    
 </body>
 </html>
