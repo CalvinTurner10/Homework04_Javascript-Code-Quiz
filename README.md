@@ -5,9 +5,10 @@ Links: https://github.com/CalvinTurner10/Homework04_Javascript-Code-Quiz
 
 https://calvinturner10.github.io/Homework04_Javascript-Code-Quiz/
 
-Screenshot: https://user-images.githubusercontent.com/92739989/145313502-3a6ff2a2-74b0-481d-bf79-31819b9ac591.png
+Screenshot: <img width="1662" alt="Screen Shot 2022-04-03 at 3 48 55 PM" src="https://user-images.githubusercontent.com/92739989/161445569-af98df62-80e4-4fd6-88fa-43db85853044.png">
 
-https://user-images.githubusercontent.com/92739989/145313567-f7faab2f-b0e0-4ce7-9ae4-8c04f29b1be1.png
+
+<img width="1680" alt="Screen Shot 2022-04-03 at 3 53 24 PM" src="https://user-images.githubusercontent.com/92739989/161445718-b79f7c77-8e1a-4ab6-b998-7d1d1efa4877.png">
 
 What was your motivation?
 The movitvation behind this homework assignment was to apply the HTML/CSS and new javascript skill to build a code quiz.
