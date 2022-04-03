@@ -2,7 +2,7 @@ var timerEl = document.querySelector("#counter");
 var startBTn = document.querySelector("#start");
 var scoreBtn = document.querySelector("#score");
 
-var questionEl = document.querySelector(".question");
+var questionsEl = document.querySelector(".question");
 var answersEl = document.querySelector(".answers");
 
 var mainEl = document.querySelector("#main");
@@ -35,6 +35,12 @@ scoreBtn.addEventListener("click", function (){
   location.assign(".");
 
 });
+
+function question1 () {
+  for (i =0; i < questions.length; i++){
+
+   
+
 
 
 
