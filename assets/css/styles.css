@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color:yellow;
+  color:black;
   text-decoration: none;
   transition: color 0.1s;
 }
@@ -21,7 +21,7 @@ button {
   background-color: yellow;
   border-radius: 5px;
   padding: 2px 10px;
-  color: white;
+  color:black;
   border: 0;
   transition: background-color 0.1s;
 }
@@ -50,7 +50,7 @@ li {
 }
 
 li:nth-child(odd) {
-  background-color: #f3edfc;
+  background-color: black;
 }
 
 .wrapper {
