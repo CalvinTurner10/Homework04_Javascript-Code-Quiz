@@ -1,12 +1,48 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    
+body {
+    font-family: 'Courier New', Courier, monospace;
 }
 
-body{
-    background: chocolate;
+.timer{
+    display: flex;
+    justify-content: right;
+    float: right;
 }
 
+h1{
+    text-align: center;
+    padding-top: 100px;
+
+}
+p {
+    text-align: center;
+}
+
+button{
+    display: flex;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-btn {
+    background-color: purple;
+    color: white;
+    border-radius: 8px;
+}
+
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight {
+    display: none;
+}
