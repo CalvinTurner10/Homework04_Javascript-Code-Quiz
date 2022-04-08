@@ -1,4 +1,4 @@
-/ function for the first page
+// function for the first page
 function show(one) {
     const firstPage = document.getElementById(one);
     if (!one) {
